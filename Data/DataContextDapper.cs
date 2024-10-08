@@ -16,10 +16,11 @@ namespace csharpstarterapp.Data {
         //location for database and credential
         //private IConfiguration _config;
         private string _connectionString;
-        public DataContextDapper(IConfiguration config) {
-           // _config = config;
-            _connectionString = config.GetConnectionString("DefaultConnection");
-            
+        public DataContextDapper(IConfiguration config)
+        {
+            //This operator tells the compiler that we are sure the value will not be null, thus suppressing the warning.
+            _connectionString = config.GetConnectionString("DefaultConnection")!;
+
         }
 
 
@@ -38,6 +39,7 @@ namespace csharpstarterapp.Data {
             IDbConnection dbConnection = new SqlConnection(_connectionString);
             return dbConnection.Execute(sql) > 0;
         }
+        
         
         public int ExecuteSqlWithRowCount(string sql) {
             IDbConnection dbConnection = new SqlConnection(_connectionString);

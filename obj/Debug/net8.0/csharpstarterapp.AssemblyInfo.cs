@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharpstarterapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+727a8d8203420c7935421d939ebc11aa82d40e3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b198b51b8ad9701457796da6946843a129b2e29")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharpstarterapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharpstarterapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,7 +39,8 @@ namespace csharpstarterapp.Data
             if (!options.IsConfigured)
             {
                 // Configures the context to use SQL Server with the specified connection string
-                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"), 
+                //This ! operator tells the compiler that we are sure the value will not be null, thus suppressing the warning.
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection")!, 
                     options => options.EnableRetryOnFailure());
             }
         }

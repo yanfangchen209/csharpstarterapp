@@ -1,0 +1,49 @@
+
+INSERT INTO StarterAppSchema.Computer(
+            Motherboard,
+            HasWifi,
+            HasLTE,
+            ReleaseDate,
+            Price,
+            VideoCard
+        ) VALUES ('Z690', 'True', 'False', '10/7/2024 1:56:13 PM', '943.87', 'RTX 2060')
+
+INSERT INTO StarterAppSchema.Computer(
+            Motherboard,
+            HasWifi,
+            HasLTE,
+            ReleaseDate,
+            Price,
+            VideoCard
+        ) VALUES ('Z690', 'True', 'False', '10/7/2024 1:56:13 PM', '943.87', 'RTX 2060')
+
+
+INSERT INTO StarterAppSchema.Computer(
+            Motherboard,
+            HasWifi,
+            HasLTE,
+            ReleaseDate,
+            Price,
+            VideoCard
+        ) VALUES ('Z690', 'True', 'False', '10/7/2024 2:00:55 PM', '943.87', 'RTX 2060')
+
+
+INSERT INTO StarterAppSchema.Computer(
+            Motherboard,
+            HasWifi,
+            HasLTE,
+            ReleaseDate,
+            Price,
+            VideoCard
+        ) VALUES ('Z690', 'True', 'False', '10/7/2024 2:01:53 PM', '943.87', 'RTX 2060')
+
+
+INSERT INTO StarterAppSchema.Computer(
+            Motherboard,
+            HasWifi,
+            HasLTE,
+            ReleaseDate,
+            Price,
+            VideoCard
+        ) VALUES ('Z690', 'True', 'False', '10/7/2024 2:06:26 PM', '943.87', 'RTX 2060')
+
